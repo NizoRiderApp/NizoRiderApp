@@ -11,9 +11,11 @@ const SignIn = () => {
           <Image
             source={images.logo}
             resizeMode="contain"
-            className="w-[115px] h-[35px]" 
+            className="w-[115px] h-[65px]"
           />
-          <Text className="text-2xl text-white text-semibold mt-10 font-psemibold">Log in to Nizo</Text>
+          <Text className="text-2xl text-white text-semibold mt-10 font-psemibold">
+            Log in to Nizo
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>
